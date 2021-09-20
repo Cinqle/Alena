@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.back-body {
+    background-image: url(../sources/img/back-body.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 572px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.wrapper {
+    max-width: 1098px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: url("../sources/img/header.png");
+    height: 105px;
+    width: 100%;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.emblem {
+    margin-left: 90px;
+    margin-right: 22px;
+}
+
+.decor1 {
+    width: 1px;
+    height: 80px;
+    background-color: #1e669d;
+}
+
+.decor2 {
+    width: 1px;
+    height: 80px;
+    background-color: #073684;
+    margin-right: 20px;
+}
+
+.credo {
+    width: 260px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #acc8d6;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.tel-img {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.tel {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.tel1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #90b7cb;
+    text-decoration: none;
+}
+
+.tel2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ececec;
+    text-decoration: none;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.header_menu {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.menu {
+    width: calc(100% / 5.1);
+    border-bottom: 1px solid #7b818b;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6c6c6c;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.block_info {
+    display: flex;
+    width: 978px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.info {
+    width: calc(100% / 3);
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.ul {
+    list-style-type: none;
+    list-style-image: url(../sources/img/marker.png);
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 14px;
+}
+
+
+.li {
+    font-weight: 400;
+    font-size: 14px;
+    color: #021736;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.li2 {
+    margin-bottom: 16px;
+    margin-right: 22px;
+}
+
+.block_welcome {
+    display: flex;
+    width: 968px;
+    height: 376px;
+    background-color: #eaf7fd;
+    margin: 0 auto 40px auto;
+}
+
+.block_alena {
+    width: calc(100% / 3);
+}
+
+.photo_alena {
+    display: block;
+    width: 264px;
+    border: 1px solid #70b5dc;
+    border-top: none;
+    border-bottom: none;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name_alena {
+    width: 264px;
+    height: 44px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    border: 1px solid #70b5dc;
+    border-top: none;
+    background-color: #1255a1;
+    text-align: center;
+    line-height: 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.name_alena2 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.shadow_alena {
+    display: block;
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+
+.info_alena {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    color: #021736;
+}
+
+.text_welcome {
+    width: calc(100% / 3 * 2);
+    padding-left: 15px;
+    padding-right: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.text_welcome_title {
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    color: #2c7cc9;
+}
+
+.text_welcome1 {
+    color: #124978;
+}
+
+.text_welcome2 {
+    color: #021736;
+}
+
+.block_footer_1 {
+    background-image: url(../sources/img/back_footer_1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 1000px;
+}
+
+.footer_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 968px;
+    height: 37px;
+    margin: 0 auto;
+}
+
+.item_footer_1 {
+    width: calc(100% / 3);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fbfdff;
+    text-align: center;
+    line-height: 16px;
+}
+
+.mail {
+    color: #fbfdff;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social1 {
+    width: calc(100% / 4 * 2.5);
+    text-align: right;
+    line-height: 16px;
+}
+
+.social2 {
+    width: calc(100% / 4 * 1.5);
+}
+
+.block_footer_2 {
+    background-image: url(../sources/img/back_footer_2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.footer_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 968px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.item_footer_2 {
+    width: calc(100% / 2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fbfdff;
+    line-height: 80px;
+}
+
+.footer2_img1 {
+    margin-right: 15px;
+}
+
+.url {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fbfdff;
+}
+
+.url2 {
+    text-decoration: underline;
+}
+
+.www {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.footer2_img2 {
+    margin-left: 175px;
+}
